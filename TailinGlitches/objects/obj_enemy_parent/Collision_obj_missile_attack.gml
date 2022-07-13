@@ -1,11 +1,11 @@
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 7D237A86
+/// @DnDHash : 4D4A4ACC
 instance_destroy();
 
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
-/// @DnDHash : 5A96171C
+/// @DnDHash : 632508CC
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "size" "1"

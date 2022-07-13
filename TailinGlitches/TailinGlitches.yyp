@@ -104,6 +104,7 @@
     {"id":{"name":"obj_chest","path":"objects/obj_chest/obj_chest.yy",},"order":4,},
     {"id":{"name":"snd_button","path":"sounds/snd_button/snd_button.yy",},"order":0,},
     {"id":{"name":"spr_entrance_particle","path":"sprites/spr_entrance_particle/spr_entrance_particle.yy",},"order":8,},
+    {"id":{"name":"obj_missile_attack","path":"objects/obj_missile_attack/obj_missile_attack.yy",},"order":6,},
     {"id":{"name":"snd_baddie_footstep","path":"sounds/snd_baddie_footstep/snd_baddie_footstep.yy",},"order":0,},
     {"id":{"name":"spr_gate_iron_2","path":"sprites/spr_gate_iron_2/spr_gate_iron_2.yy",},"order":6,},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},"order":1,},
