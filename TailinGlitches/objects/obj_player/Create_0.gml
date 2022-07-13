@@ -12,3 +12,10 @@ move_speed = 4;
 /// @DnDComment : Initialize coins value at 0
 /// @DnDArgument : "var" "coins"
 coins = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6A6D514A
+/// @DnDComment : Keeps track of direction the$(13_10)player is facing
+/// @DnDArgument : "var" "input_direction"
+input_direction = 0;

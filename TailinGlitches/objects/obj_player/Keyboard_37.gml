@@ -23,3 +23,10 @@ image_index += 0;
 /// @DnDArgument : "xscale" "-1"
 image_xscale = -1;
 image_yscale = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4C1D79DA
+/// @DnDArgument : "expr" "180"
+/// @DnDArgument : "var" "input_direction"
+input_direction = 180;
