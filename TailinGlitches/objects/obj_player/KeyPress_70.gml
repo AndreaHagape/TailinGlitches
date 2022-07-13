@@ -21,8 +21,8 @@ hand.image_angle = input_direction;
 /// @DnDVersion : 1
 /// @DnDHash : 1C13482D
 /// @DnDApplyTo : {obj_missile_attack}
-/// @DnDArgument : "speed" "4"
-with(obj_missile_attack) speed = 4;
+/// @DnDArgument : "speed" "8"
+with(obj_missile_attack) speed = 8;
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 /// @DnDVersion : 1

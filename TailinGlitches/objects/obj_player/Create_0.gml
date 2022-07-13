@@ -30,3 +30,9 @@ input_direction = 0;
 /// @DnDArgument : "var_1" "hearts"
 max_hearts = 3;
 hearts = max_hearts;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 203ECBBC
+/// @DnDArgument : "var" "key"
+key = 0;

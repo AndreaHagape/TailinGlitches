@@ -4,6 +4,7 @@
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},"order":0,},
     {"id":{"name":"spr_sword_attack","path":"sprites/spr_sword_attack/spr_sword_attack.yy",},"order":5,},
     {"id":{"name":"path_enemy_2","path":"paths/path_enemy_2/path_enemy_2.yy",},"order":1,},
+    {"id":{"name":"obj_next_level_key","path":"objects/obj_next_level_key/obj_next_level_key.yy",},"order":10,},
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},"order":0,},
     {"id":{"name":"spr_baddie_idle","path":"sprites/spr_baddie_idle/spr_baddie_idle.yy",},"order":0,},
     {"id":{"name":"snd_gate_iron_open","path":"sounds/snd_gate_iron_open/snd_gate_iron_open.yy",},"order":11,},
