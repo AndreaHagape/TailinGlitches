@@ -37,4 +37,19 @@ if(l4CC419CD_0)
 	/// @DnDArgument : "caption" ""x""
 	/// @DnDArgument : "var" "obj_player.coins"
 	draw_text(1135, 15, string("x") + string(obj_player.coins));
+
+	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
+	/// @DnDVersion : 1
+	/// @DnDHash : 3CE6BF12
+	/// @DnDComment : draws a specified amount of$(13_10)HUD heart sprites$(13_10)$(13_10)Number is based on player's$(13_10)health
+	/// @DnDParent : 4CC419CD
+	/// @DnDArgument : "sprite" "spr_hud_heart"
+	/// @DnDArgument : "number" "obj_player.hearts"
+	/// @DnDSaveInfo : "sprite" "spr_hud_heart"
+	var l3CE6BF12_0 = sprite_get_width(spr_hud_heart);
+	var l3CE6BF12_1 = 0;
+	for(var l3CE6BF12_2 = obj_player.hearts; l3CE6BF12_2 > 0; --l3CE6BF12_2) {
+		draw_sprite(spr_hud_heart, 0, 0 + l3CE6BF12_1, 0);
+		l3CE6BF12_1 += l3CE6BF12_0;
+	}
 }

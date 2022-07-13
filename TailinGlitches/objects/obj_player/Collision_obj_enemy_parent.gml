@@ -6,13 +6,41 @@
 /// @DnDArgument : "op" "1"
 if(alarm[0] < 0)
 {
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 30A3EAA2
+	/// @DnDComment : face towards enemy
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "x" "other.x"
+	/// @DnDArgument : "y" "other.y"
+	direction = point_direction(x, y, other.x, other.y);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+	/// @DnDVersion : 1
+	/// @DnDHash : 5BF38D37
+	/// @DnDComment : faces player away from enemy
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "direction" "180"
+	/// @DnDArgument : "direction_relative" "1"
+	direction += 180;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 5E271AEF
+	/// @DnDComment : makes player move $(13_10)in that direction
+	/// @DnDParent : 1362B03B
+	/// @DnDArgument : "speed" "12"
+	speed = 12;
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 0A333880
-	/// @DnDComment : This event runs when you$(13_10)touch an enemy$(13_10)$(13_10)This action will set the move_speed$(13_10)to 0 so the player can't move anymore
+	/// @DnDHash : 39EF90A0
+	/// @DnDComment : makes health go down 1
 	/// @DnDParent : 1362B03B
-	/// @DnDArgument : "var" "move_speed"
-	move_speed = 0;
+	/// @DnDArgument : "expr" "-1"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "hearts"
+	hearts += -1;
 
 	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1

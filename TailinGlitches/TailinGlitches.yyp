@@ -114,6 +114,7 @@
     {"id":{"name":"snd_finish_level","path":"sounds/snd_finish_level/snd_finish_level.yy",},"order":2,},
     {"id":{"name":"snd_music_rampage","path":"sounds/snd_music_rampage/snd_music_rampage.yy",},"order":3,},
     {"id":{"name":"snd_player_defeated","path":"sounds/snd_player_defeated/snd_player_defeated.yy",},"order":4,},
+    {"id":{"name":"obj_player_defeated","path":"objects/obj_player_defeated/obj_player_defeated.yy",},"order":5,},
     {"id":{"name":"spr_hud_shield","path":"sprites/spr_hud_shield/spr_hud_shield.yy",},"order":2,},
     {"id":{"name":"snd_bat_fly","path":"sounds/snd_bat_fly/snd_bat_fly.yy",},"order":6,},
     {"id":{"name":"spr_help_close","path":"sprites/spr_help_close/spr_help_close.yy",},"order":8,},

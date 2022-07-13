@@ -19,3 +19,14 @@ coins = 0;
 /// @DnDComment : Keeps track of direction the$(13_10)player is facing
 /// @DnDArgument : "var" "input_direction"
 input_direction = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3EEC1A78
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr_1" "max_hearts"
+/// @DnDArgument : "var" "max_hearts"
+/// @DnDArgument : "var_1" "hearts"
+max_hearts = 3;
+hearts = max_hearts;
