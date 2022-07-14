@@ -21,6 +21,18 @@ move_speed = 2;
 /// @DnDArgument : "var" "attacking"
 attacking = false;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5317EE5B
+/// @DnDArgument : "var" "position_x"
+position_x = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 31C69326
+/// @DnDArgument : "var" "position_y"
+position_y = 0;
+
 /// @DnDAction : YoYo Games.Paths.Start_Path
 /// @DnDVersion : 1.1
 /// @DnDHash : 5BF1EF42
