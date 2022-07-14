@@ -2,18 +2,18 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 563A63E1
 /// @DnDComment : Check if the player is colliding with an elliptical$(13_10)area surrounding the baddie$(13_10)$(13_10)Its size is 100 pixels around the baddie (using$(13_10)the relative option)
-/// @DnDArgument : "x1" "-100"
+/// @DnDArgument : "x1" "-300"
 /// @DnDArgument : "x1_relative" "1"
-/// @DnDArgument : "y1" "-100"
+/// @DnDArgument : "y1" "-300"
 /// @DnDArgument : "y1_relative" "1"
-/// @DnDArgument : "x2" "100"
+/// @DnDArgument : "x2" "300"
 /// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "100"
+/// @DnDArgument : "y2" "300"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "obj" "obj_player"
 /// @DnDArgument : "shape" "2"
 /// @DnDSaveInfo : "obj" "obj_player"
-var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_player, true, 1);
+var l563A63E1_0 = collision_ellipse(x + -300, y + -300, x + 300, y + 300, obj_player, true, 1);
 if((l563A63E1_0))
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -36,8 +36,7 @@ if((l563A63E1_0))
 	
 		/// @DnDAction : YoYo Games.Paths.Path_Speed
 		/// @DnDVersion : 1
-		/// @DnDHash : 7425DC2A
-		/// @DnDComment : Set the path follow speed$(13_10)to 0 so it stops moving
+		/// @DnDHash : 618610FD
 		/// @DnDParent : 7C32DED1
 		/// @DnDArgument : "speed" "0"
 		path_speed = 0;

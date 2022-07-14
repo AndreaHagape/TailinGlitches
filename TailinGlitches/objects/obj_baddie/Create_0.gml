@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 3A9E2E72
+/// @DnDComment : # of times enemy has $(13_10)been hit
+/// @DnDArgument : "var" "hit"
+hit = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 4D7FF0B7
 /// @DnDComment : The movement speed of the$(13_10)enemy along its path.
 /// @DnDArgument : "expr" "2"
