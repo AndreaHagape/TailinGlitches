@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_key",
-    "path": "sprites/spr_key/spr_key.yy",
+    "name": "spr_heart_pickup",
+    "path": "sprites/spr_heart_pickup/spr_heart_pickup.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_next_level_key",
+  "name": "obj_heart_pickup",
   "tags": [],
   "resourceType": "GMObject",
 }
