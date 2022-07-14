@@ -16,17 +16,3 @@ var hand = instance_create_layer(x + 0, y + 0, "Instances", obj_missile_attack);
 /// @DnDArgument : "expr" "input_direction"
 /// @DnDArgument : "var" "hand.image_angle"
 hand.image_angle = input_direction;
-
-/// @DnDAction : YoYo Games.Movement.Set_Speed
-/// @DnDVersion : 1
-/// @DnDHash : 1C13482D
-/// @DnDApplyTo : {obj_missile_attack}
-/// @DnDArgument : "speed" "8"
-with(obj_missile_attack) speed = 8;
-
-/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
-/// @DnDVersion : 1
-/// @DnDHash : 0DD9C961
-/// @DnDApplyTo : {obj_missile_attack}
-/// @DnDArgument : "direction" "obj_player.input_direction"
-with(obj_missile_attack) direction = obj_player.input_direction;
