@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Game",
-    "path": "folders/Objects/Game.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_missile_attack",
